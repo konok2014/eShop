@@ -1,4 +1,6 @@
+    
 export default {
+  
   products: [{
     _id:'1',
     name: 'Slim Shirt',
@@ -26,13 +28,13 @@ export default {
     category:'Shirts',
     image: '/images/d3.jpg',
     price: 70,
-    brand: 'Nike',
+    brand: 'Jack & Jones',
     rating: 4.4,
     numReview: 5,
     countInStock:6
   },
   { _id:'4',
-     name: 'Best Pants',
+     name: 'Less Pants',
      category:'Shirts',
      image: '/images/p1.jpg',
      price: 70,
@@ -40,5 +42,25 @@ export default {
      rating: 4.4,
      numReview: 5,
      countInStock:6
-   }]
+   },
+   { _id:'5',
+      name: 'Modern Pants',
+      category:'Shirts',
+      image: '/images/p2.jpg',
+      price: 80,
+      brand: 'Armani',
+      rating: 3.4,
+      numReview: 5,
+      countInStock:6
+    },
+    { _id:'6',
+       name: 'Woo Pants',
+       category:'Shirts',
+       image: '/images/p3.jpg',
+       price: 90,
+       brand: 'Gucci',
+       rating: 4.6,
+       numReview:9,
+       countInStock:6
+     }]
 };

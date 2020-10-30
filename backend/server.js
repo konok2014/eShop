@@ -17,7 +17,7 @@ mongoose.connect(mongodbUrl,{
 
 
 
-const app = express();
+ const app = express();
 
 app.use(bodyParser.json());
 
@@ -36,4 +36,4 @@ app.get("/api/products/:id",(req,res)=>{
 app.get("/api/products",(req,res)=>{
   res.send(data.products);
 });
-app.listen(5002,()=>{console.log("Server started at http://localhost:5002")})
+app.listen(5000,()=>{console.log("Server started at http://localhost:5000")})
